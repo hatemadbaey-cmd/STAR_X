@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">نظام البث</string>
+    <string name="app_tagline">إدارة ومراقبة أجهزة الشبكة والبث</string>
+    
+    <!-- Auth -->
+    <string name="login_title">تسجيل الدخول</string>
+    <string name="login_subtitle">مرحباً بك في نظام إدارة البث والمودمات</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="username_hint">أدخل اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="password_hint">أدخل كلمة المرور</string>
+    <string name="login_button">دخول للنظام</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="logout_confirm">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="login_error">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="role_admin">مدير النظام</string>
+    <string name="role_user">فني شبكة</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="old_password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="password_changed_success">تم تغيير كلمة المرور بنجاح</string>
+    <string name="passwords_do_not_match">كلمات المرور غير متطابقة</string>
+    <string name="field_required">هذا الحقل مطلوب</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">الرئيسية</string>
+    <string name="nav_devices">الأجهزة</string>
+    <string name="nav_add">إضافة جهاز</string>
+    <string name="nav_account">الحساب</string>
+    <string name="nav_logs">سجل العمليات</string>
+    <string name="nav_users">إدارة المستخدمين</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_about">عن التطبيق</string>
+    <string name="nav_notifications">إعدادات الإشعارات</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_user">مرحباً، %1$s</string>
+    <string name="dashboard_overview">نظرة عامة على الشبكة</string>
+    <string name="total_devices">إجمالي الأجهزة</string>
+    <string name="total_users">عدد المستخدمين</string>
+    <string name="status_distribution">توزيع الحالات</string>
+    <string name="type_distribution">توزيع أنواع الأجهزة</string>
+    <string name="weekly_activity">نشاط الشبكة هذا الأسبوع</string>
+    <string name="recent_devices">أحدث الأجهزة المضافة</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="offline_mode_indicator">وضع عدم الاتصال (بيانات مخزنة محلياً)</string>
+
+    <!-- Device Types -->
+    <string name="type_broadcast">بث</string>
+    <string name="type_receiver">لاقط</string>
+    <string name="type_modem">مودم</string>
+    <string name="type_all">الكل</string>
+
+    <!-- Device Statuses -->
+    <string name="status_online">متصل</string>
+    <string name="status_offline">غير متصل</string>
+    <string name="status_maintenance">في الصيانة</string>
+    <string name="status_in_house">في البيت</string>
+    <string name="status_all">جميع الحالات</string>
+
+    <!-- Devices List -->
+    <string name="search_devices_hint">بحث بالـ IP أو اسم المودم أو الموقع...</string>
+    <string name="sort_by">ترتيب حسب</string>
+    <string name="sort_newest">الأحدث</string>
+    <string name="sort_ip">عنوان IP</string>
+    <string name="sort_status">الحالة</string>
+    <string name="quick_status_change">تغيير الحالة السريع</string>
+    <string name="device_details">تفاصيل الجهاز</string>
+    <string name="modem_name">اسم المودم</string>
+    <string name="location">الموقع / البرج</string>
+    <string name="ip_address">عنوان IP</string>
+    <string name="device_type">نوع الجهاز</string>
+    <string name="device_status">حالة الجهاز</string>
+    <string name="notes">ملاحظات</string>
+    <string name="last_updated">آخر تحديث</string>
+    <string name="ping_check">فحص الاتصال (Ping)</string>
+    <string name="ping_testing">جارِ الفحص...</string>
+    <string name="ping_success">الجهاز متصل (%1$d ms)</string>
+    <string name="ping_failed">فشل الاتصال بالجهاز</string>
+    <string name="copy_ip">نسخ الـ IP</string>
+    <string name="ip_copied">تم نسخ عنوان الـ IP إلى الحافظة</string>
+    <string name="open_in_browser">فتح في المتصفح</string>
+    <string name="share_device">مشاركة بيانات الجهاز</string>
+
+    <!-- Add/Edit Device -->
+    <string name="add_device_title">إضافة جهاز جديد</string>
+    <string name="edit_device_title">تعديل بيانات الجهاز</string>
+    <string name="save_device">حفظ الجهاز</string>
+    <string name="delete_device">حذف الجهاز</string>
+    <string name="delete_device_confirm">هل أنت متأكد من حذف هذا الجهاز (%1$s)؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="device_saved_success">تم حفظ الجهاز بنجاح</string>
+    <string name="device_deleted_success">تم حذف الجهاز بنجاح</string>
+    <string name="ip_duplicate_warning">تحذير: عنوان الـ IP هذا مستخدم بالفعل!</string>
+    <string name="ip_invalid">عنوان الـ IP غير صالح</string>
+    <string name="modem_required">اسم المودم إلزامي</string>
+    <string name="device_image">صورة الجهاز</string>
+    <string name="attach_photo">إرفاق صورة</string>
+
+    <!-- Users Management -->
+    <string name="users_management">إدارة المستخدمين</string>
+    <string name="add_user">إضافة مستخدم جديد</string>
+    <string name="user_role">الدور / الصلاحية</string>
+    <string name="delete_user">حذف المستخدم</string>
+    <string name="delete_user_confirm">هل أنت متأكد من حذف المستخدم %1$s؟</string>
+    <string name="cannot_delete_self">لا يمكنك حذف حسابك الحالي!</string>
+    <string name="user_added_success">تمت إضافة المستخدم بنجاح</string>
+    <string name="user_deleted_success">تم حذف المستخدم بنجاح</string>
+
+    <!-- Audit Logs -->
+    <string name="audit_logs">سجل العمليات (Audit Log)</string>
+    <string name="clear_logs">مسح السجل</string>
+    <string name="clear_logs_confirm">هل أنت متأكد من مسح جميع سجلات العمليات؟</string>
+    <string name="logs_cleared">تم مسح السجل بنجاح</string>
+    <string name="no_logs_yet">لا توجد عمليات مسجلة حتى الآن</string>
+
+    <!-- Backup -->
+    <string name="backup_database">نسخة احتياطية لقاعدة البيانات</string>
+    <string name="backup_download_sql">تصدير وحفظ ملف SQL</string>
+    <string name="backup_success">تم تصدير النسخة الاحتياطية بنجاح في مجلد التنزيلات</string>
+    <string name="export_excel">تصدير تقرير Excel / CSV</string>
+    <string name="export_success">تم تصدير ملف التقرير بنجاح</string>
+
+    <!-- Notifications -->
+    <string name="notifications">الإشعارات</string>
+    <string name="notification_settings">إعدادات الإشعارات</string>
+    <string name="notify_device_added">إشعار عند إضافة جهاز جديد</string>
+    <string name="notify_device_deleted">إشعار عند حذف جهاز</string>
+    <string name="notify_device_updated">إشعار عند تعديل جهاز</string>
+    <string name="notify_status_changed">إشعار عند تغيير حالة جهاز</string>
+    <string name="notify_ping_failure">تنبيه عند تعطل جهاز (فشل Ping)</string>
+    <string name="notify_user_changes">إشعارات عمليات المستخدمين</string>
+    <string name="enable_sound">تشغيل صوت مخصص</string>
+    <string name="enable_vibration">تفعيل الاهتزاز</string>
+
+    <!-- General -->
+    <string name="confirm">تأكيد</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="close">إغلاق</string>
+    <string name="refresh">تحديث</string>
+    <string name="empty_devices">لم يتم العثور على أجهزة تطابق البحث</string>
+    <string name="sync_completed">تمت المزامنة بنجاح</string>
+    <string name="edit_device">تعديل الجهاز</string>
+    <string name="activity_log">سجل العمليات</string>
+    <string name="no_logs">لا توجد عمليات مسجلة حتى الآن</string>
+    <string name="about_app">عن التطبيق</string>
+    <string name="notify_ping_failed">تنبيه عند تعطل جهاز (فشل Ping)</string>
+    <string name="notify_sound">تشغيل صوت مخصص</string>
+    <string name="notify_vibrate">تفعيل الاهتزاز</string>
+    <string name="theme_mode">المظهر</string>
+    <string name="theme_system">تلقائي</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="sql_backup_download">نسخة احتياطية (تنزيل ملف SQL)</string>
+    <string name="export_devices_csv">تصدير بيانات الأجهزة (CSV / Excel)</string>
+    <string name="add_user_title">إضافة مستخدم جديد</string>
+    <string name="role">الدور / الصلاحية</string>
+
+    <string name="version_info">الإصدار 1.0.0 (Build 1)</string>
+    <string name="copyright">جميع الحقوق محفوظة © نظام البث 2026</string>
+</resources>

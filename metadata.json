@@ -1,0 +1,6 @@
+{
+  "name": "نظام البث",
+  "description": "نظام متكامل لإدارة أجهزة البث والشبكة واللواقط والمودمات مع مراقبة الحالة وفحص الاتصال وإشعارات فورية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
